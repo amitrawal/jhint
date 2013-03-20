@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>JHint sample</title>
+    <link rel="stylesheet" href="css/jhint.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jhint.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#firstname, #lastname').addHint();
+      });
+    </script>
+</head>
+<body>
+  <input type="text" id="firstname" size="30" title="Enter Firstname" />
+  <input type="text" id="lastname" size="30" title="Enter Lastname" />
+</body>
+</html>

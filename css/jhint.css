@@ -1,0 +1,12 @@
+.jHint {
+  font-size: 85.714%;
+  line-height: 100%;
+  padding: 0 5px 3px 3px;
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  z-index: 100;
+  display: none;
+  cursor: text;
+  background: none repeat scroll 0 0 transparent;
+}
